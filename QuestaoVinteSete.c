@@ -1,9 +1,10 @@
-    printf("Preço: ");
-    scanf("%f", &preco);
+float preço;
+   printf("Diga o preço: ");
+   scanf("%f", &preço);
 
-    if (preco < 100)
-        preco *= 1.10;
-    else
-        preco *= 1.20;
+   if (preço < 100)
+       preço *= 1.10;
+   else
+       preço *= 1.20;
 
-    printf("Novo preço: %.2f\n", preco);
+   printf("preço inflacionado: %.2f\n", preço);

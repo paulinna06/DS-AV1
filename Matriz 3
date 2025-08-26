@@ -1,3 +1,5 @@
+Faça um programa em C que leia uma matriz 3x3 de números inteiros e exiba todos os elementos da diagonal principal.
+
 int main() {
     int matriz[3][3];
     int i, j;

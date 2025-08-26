@@ -1,0 +1,29 @@
+Escreva um programa que leia uma matriz 2x3 e exiba a matriz transposta (3x2).
+
+
+
+
+int matriz[2][3];
+    int i, j;
+
+    
+
+    printf("Digite os elementos da matriz 2x3:\n");
+    for(i = 0; i < 2; i++) {
+        for(j = 0; j < 3; j++) {
+            printf("Elemento [%d][%d]: ", i, j);
+            scanf("%d", &matriz[i][j]);
+        }
+    }
+
+   
+    printf("\nMatriz transposta (3x2):\n");
+    for(j = 0; j < 3; j++) {
+        for(i = 0; i < 2; i++) {
+            printf("%d\t", matriz[i][j]);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}

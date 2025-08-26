@@ -1,3 +1,6 @@
+Escreva um programa em C que leia uma matriz 2x2 de números inteiros e depois imprima seus elementos na tela.
+
+
 int main() {
      
     int matriz[2][2] ={ 

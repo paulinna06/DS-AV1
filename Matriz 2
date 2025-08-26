@@ -1,6 +1,6 @@
 int main() {
      
-    int matriz[5][4] ={ 
+    int matriz[2][2] ={ 
     { 7 , 8 },
     { 5 , 10 }
    

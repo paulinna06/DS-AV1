@@ -1,3 +1,6 @@
+Crie um programa em C que leia uma matriz 3x3 e mostre a soma dos elementos de cada linha separadamente.
+
+
 #include <stdio.h>
 
 int main() {

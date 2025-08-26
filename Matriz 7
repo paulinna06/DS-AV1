@@ -1,3 +1,6 @@
+Escreva um programa que leia uma matriz 2x2 e troque os valores da primeira linha com os da segunda linha.
+
+
 #include <stdio.h>
 
 int main() {

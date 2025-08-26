@@ -1,3 +1,6 @@
+Faça um programa em C que leia uma matriz 3x2 de inteiros e conte quantos números pares foram digitados.
+
+
 #include <stdio.h>
 
 int main() {

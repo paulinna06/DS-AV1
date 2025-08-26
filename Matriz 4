@@ -1,3 +1,6 @@
+Crie um programa em C que leia uma matriz 2x3 de inteiros e calcule a soma de todos os elementos.
+
+
 #include <stdio.h>
 int main() {
     int matriz[2][3];

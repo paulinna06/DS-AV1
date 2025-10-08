@@ -1,0 +1,25 @@
+public class JogoAdivinhacao {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        int numeroSecreto = 7; 
+        int palpite;
+
+        System.out.println("Tente adivinhar o número secreto (entre 1 e 10)!");
+
+        do {
+            System.out.print("Digite seu palpite: ");
+            palpite = input.nextInt();
+
+            if (palpite < numeroSecreto) {
+                System.out.println("Muito baixo! Tente novamente.");
+            } else if (palpite > numeroSecreto) {
+                System.out.println("Muito alto! Tente novamente.");
+            } else {
+                System.out.println("Parabéns! Você acertou o número secreto!");
+            }
+        } while (palpite != numeroSecreto);
+
+        input.close();
+    }
+}

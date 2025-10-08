@@ -1,0 +1,27 @@
+public class DadosPessoais {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        
+        System.out.print("Digite seu nome: ");
+        String nome = input.nextLine();
+
+        System.out.print("Digite seu endereço: ");
+        String endereco = input.nextLine();
+
+        System.out.print("Digite seu telefone: ");
+        String telefone = input.nextLine();
+
+        System.out.print("Digite sua idade: ");
+        int idade = input.nextInt();
+
+        String frase = "Seu nome é " + nome + ", você tem " + idade +
+                       " anos, mora na rua " + endereco +
+                       " e seu telefone é " + telefone + ".";
+
+       
+        System.out.println(frase);
+
+        input.close();
+    }
+}
